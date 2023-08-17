@@ -1,7 +1,12 @@
 # CheckWinDrivers
 
-Small script to compare vulnerabilities in a windows system, comparing the MD5 hashes of the drivers against the database of the LOLDrivers project.
+*Small script to compare vulnerabilities in a windows system, comparing the MD5 hashes of the drivers against the database of the LOLDrivers project.*
+
 https://github.com/magicsword-io/LOLDrivers
+
+---
+
+![Screenshot](cwd.png)
 
 
 ### Usage
@@ -14,4 +19,3 @@ then copy and paste the output of the command to a file and pass it as a paramet
 ```bash
 python3 checkWinDrivers.py drivers.log
 ```
-![Screenshot](cwd.png)
